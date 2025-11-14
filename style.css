@@ -1,0 +1,45 @@
+/* General body reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.navbar .nav-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a, .navbar .nav-user a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover, .navbar .nav-user a:hover {
+    color: #4CAF50; /* Highlight color */
+}
