@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">...</nav>
+
+    <div class="dashboard-container">
+        <h1>My Account Dashboard</h1>
+
+        <section class="dashboard-section">
+            <h2>My Orders</h2>
+            <ul class="item-list">
+                <li class="item">
+                    <img src="https" alt="Product Image">
+                    <div class="item-details">
+                        <strong>Product Name 1</strong>
+                        <p>Order #12345</p>
+                        <p>Status: Shipped</p>
+                    </div>
+                    <span class="item-price">$29.99</span>
+                </li>
+                <li class="item">
+                    <img src="https" alt="Product Image">
+                    <div class="item-details">
+                        <strong>Product Name 2</strong>
+                        <p>Order #12344</p>
+                        <p>Status: Processing</p>
+                    </div>
+                    <span class="item-price">$99.50</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>My Wishlist</h2>
+            <ul class="item-list">
+                <li class="item">
+                    <img src="https" alt="Product Image">
+                    <div class="item-details">
+                        <strong>Wishlist Product A</strong>
+                        <p>In Stock</p>
+                    </div>
+                    <button>Add to Cart</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>My Reviews</h2>
+            <div class="review">
+                <strong>Product Name 1</strong>
+                <p class="review-rating">★★★★☆</p>
+                <p>"This product was great, highly recommend!"</p>
+            </div>
+        </section>
+        
+        <section class="dashboard-section">
+            <h2>Customer Care & Reporting</h2>
+            <p>Having an issue? Let us know.</p>
+            <form id="supportForm" class="support-form">
+                <label for="issueType">Issue Type:</label>
+                <select id="issueType" name="issueType">
+                    <option value="order">Order Issue</option>
+                    <option value="reporting">Report an Item/User</option>
+                    <option value="account">Account Problem</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="issueDescription">Description:</label>
+                <textarea id="issueDescription" rows="5" placeholder="Please describe your issue..."></textarea>
+                <button type="submit">Submit Report</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
